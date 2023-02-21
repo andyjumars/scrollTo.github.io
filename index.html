@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>滾動方法 scrollTo()</title>
+</head>
+<body style="height:2000px">
+	<button id="backtop" style="position:fixed">回到頂部</button>
+	<script type="text/javascript">
+			var backTop = document.getElementById('backTop');
+			backTop.onclick = function(){
+				window.scrollTo(0,100);
+			}
+
+	</script>
+</body>
+</html>
